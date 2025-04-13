@@ -1,0 +1,12 @@
+.skip-link {
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    position: absolute;
+    padding:0;
+}
+
+.skip-link:focus {  
+    clip: auto; 
+    position: absolute;
+    padding: auto;
+}

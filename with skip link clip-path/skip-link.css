@@ -1,0 +1,20 @@
+.skip-link {
+    /* clip-path: rect(1px 1px 1px 1px); */
+    clip-path: inset(50%);
+    overflow: hidden;
+    position: absolute;
+    padding:0;
+
+    /*style*/
+    font-size: 1.5rem;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}
+
+.skip-link:focus {  
+    margin: 10px;
+    clip-path: none; 
+    position: absolute;
+    padding: auto;
+}
