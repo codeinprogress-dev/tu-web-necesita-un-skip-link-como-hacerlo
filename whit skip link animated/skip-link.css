@@ -1,0 +1,16 @@
+.skip-link {
+    position: absolute;
+    transform: translateY(-150%);
+
+    font-size: 1.5rem;
+    background-color: #333;
+    color: white;
+
+    transition: transform 0.3s ease-in-out;
+    padding: 0.5rem;
+
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
